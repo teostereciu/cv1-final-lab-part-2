@@ -59,7 +59,7 @@ cv1-final-lab-part-2/
 │   └── fourlayernet.pth
 │   └── deeper_convnet.pth
 │
-└── results/  
+├── results/  
 │   └── twolayernet_results.json
 │   └── basic_convnet_results.json
 │   └── fourlayernet_results.json
