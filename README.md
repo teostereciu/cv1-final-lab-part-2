@@ -29,7 +29,19 @@ Students should provide their own Python environment to run the Jupyter Notebook
 cv1-final-lab-part-2/
 │
 ├── .gitignore
-├── cv1-final-lab-part-2.ipynb
+├── 15732592_15743063_14836459_15494349.ipynb
 ├── LICENSE
 └── README.md
+│
+├── models/  
+│   └── twolayernet.pth
+│   └── basic_convnet.pth
+│   └── fourlayernet.pth
+│   └── deeper_convnet.pth
+│
+└── results/  
+│   └── twolayernet_results.json
+│   └── basic_convnet_results.json
+│   └── fourlayernet_results.json
+│   └── deeper_convnet_results.json
 ```
