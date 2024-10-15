@@ -21,7 +21,27 @@ The course covers a wide range of topics, including:
 
 ## Environment Setup
 
-Students should provide their own Python environment to run the Jupyter Notebook.
+This project requires a specific Conda environment to ensure all dependencies are properly installed. Follow the instructions below to set up the environment.
+
+### Prerequisites
+
+Make sure you have [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installed on your machine.
+
+### Creating the Conda Environment
+
+1. **Open a terminal**: Launch a terminal window (Anaconda Prompt, Command Prompt, or any terminal application).
+
+2. **Navigate to the project directory**: Change to the directory where your `env.yaml` file is located:
+   ```bash
+   cd path/to/your/project/cv1-final-lab-part-2
+
+3. **Create the Conda environment** *38final*:
+    ```bash 
+    conda env create -f env.yaml
+
+4. **Activate the environemnt**:
+    ```bash
+    conda activate 38final
 
 ## File Structure
 
