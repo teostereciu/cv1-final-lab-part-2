@@ -49,19 +49,29 @@ Make sure you have [Anaconda](https://www.anaconda.com/products/distribution) or
 cv1-final-lab-part-2/
 │
 ├── .gitignore
-├── 15732592_15743063_14836459_15494349.ipynb
+├── 15732592_15743063_14836459.ipynb
 ├── LICENSE
-└── README.md
+├── README.md
 │
 ├── models/  
 │   └── twolayernet.pth
 │   └── basic_convnet.pth
-│   └── fourlayernet.pth
-│   └── deeper_convnet.pth
+│   └── best_mlp.pth
+│   └── best_cnn.pth
 │
+├── report/  
+│   └── cifar100_visualization.png
+│   └── importances_cnn.png
+│   └── importances_mlp.png
+|
 ├── results/  
 │   └── twolayernet_results.json
 │   └── basic_convnet_results.json
-│   └── fourlayernet_results.json
-│   └── deeper_convnet_results.json
+│   └── best_mlp_results.json
+│   └── best_cnn_results.json
+|
+├── tuning/  
+│   └── cnn_study.db
+|   └── mlp_study.db
+└─
 ```
